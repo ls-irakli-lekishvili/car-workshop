@@ -55,7 +55,7 @@
 <style lang="scss">
   main {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -91,6 +91,7 @@
     background-image: url("/background.png");
     background-position: center center;
     background-size: cover;
+    padding-bottom: 10em;
 
     .subtitle {
       display: flex;
